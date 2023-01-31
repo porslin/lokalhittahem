@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(253, 253, 226);
+}
+
+#container {
+    width: 700px;
+    margin: 20px auto;
+}
+
+input {
+    padding: 10px;
+}
+
+form a {
+    width: 100%;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgba(42, 42, 187, 0.692);
+}
+
+#main-nav,
+#main-nav2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+a:visited,
+a:link {
+    color: #2b2b2b;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: pink;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+/* .content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+} */
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid pink;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+ }
+
+#container-form {
+    margin-top: 30px;
+    display: block;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#title-textarea,
+#author-textarea,
+#content-textarea,
+#tags-textarea,
+#price-textarea {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: none;
+    background-color: #eaeaea;
+    color: #000000;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+}
+
+    #content-textarea{
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+#title-textarea:focus{
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border-color: #333333;
+}
+
+#author-textarea:focus {
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border-color: #333333;
+}
+
+#content-textarea:focus {
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border-color: #333333;
+}
+
+#tags-textarea:focus {
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border-color: #333333;
+}
+
+#price-textarea:focus {
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border-color: #333333;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 300px;
+    padding: 10px;
+    width: 50%;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1.25rem;
+    background-color: #000;
+    color: white;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+
+.buttons{
+    /* background-color: #a8ae82; */
+    background-color: #c6cc99;
+}
+
+.buttons:hover {
+    background-color: beige;
+}
+
+.big-button {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 180px;
+    padding: 10px;
+    width: 50%;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1.25rem;
+    background-color: #000;
+    color: white;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+
+.button:after,
+.button:before {
+    content: "";
+    opacity: 0.3;
+    background: black;
+    border-radius: inherit;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+.big-button:after,
+.big-button:before {
+    content: "";
+    opacity: 0.3;
+    background: black;
+    border-radius: inherit;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+.button:hover {
+    transform: translate(-12px, -12px);
+}
+
+.big-button:hover {
+    transform: translate(-12px, -12px);
+}
+
+#content-textarea {
+    height: 160px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #dddddd;
+}
+
+.content-table {
+    width: 700px;
+}
+
+.img {
+    border-radius: 50%;
+  }
+
+  #create-blog-form{
+    display: block;
+
+  }
+
+  #container2{
+    margin: 20px auto;
+    width: 1539px;
+  }
+
+  .blog-container2{
+  justify-content: center;
+  margin-top: 15px;
+}
